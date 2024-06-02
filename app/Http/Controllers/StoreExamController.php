@@ -35,9 +35,16 @@ class StoreExamController extends Controller
             $question->question_id = $pregunta['id'];
             $question->respuesta_usuario = $pregunta['respuesta_usuario'];
             $question->respuesta_correcta = $pregunta['correcta'];
+
+            if ($pregunta['respuesta_usuario'] == $pregunta['correcta']) {
+                $question->is_correct = true;
+            } else {
+                $question->is_correct = false;
+            }
+
             $question->save();
         }
 
-        return Redirect::route('do-exam-with-rdm-questions');
+        return Redirect::route('my-exams');
     }
 }

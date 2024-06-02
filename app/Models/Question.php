@@ -12,7 +12,7 @@ class Question extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['respuesta_usuario', 'respuesta_correcta', 'exam_id', 'question_id'];
+    protected $fillable = ['respuesta_usuario', 'respuesta_correcta', 'exam_id', 'question_id', 'is_correct'];
 
     public static function getQuestions(){
         $questions = file_get_contents((base_path('Questions.json')));
@@ -21,7 +21,7 @@ class Question extends Model
 
     public static function get25Questions(){
         $questions = self::getQuestions();
-        $questions = collect($questions)->shuffle()->take(3);
+        $questions = collect($questions)->shuffle()->take(25);
         return $questions;
     }
 

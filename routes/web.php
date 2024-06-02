@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DoExamWithRdmQuestionsController;
 use App\Http\Controllers\StoreExamController;
+use App\Http\Controllers\GetDoItExamsController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -55,8 +56,9 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
-    Route::get('/do-exam-rdm', [DoExamWithRdmQuestionsController::class, 'index'])->name('do-exam-with-rdm-questions');
+    Route::get('/do-exam-rdm', [DoExamWithRdmQuestionsController::class, 'index'])->name('exam-rdm-questions');
     Route::post('/store-exam', [StoreExamController::class, 'store'])->name('store-exam');
+    Route::get('/my-exams', [GetDoItExamsController::class, 'getExamsForTheAuthUser'])->name('my-exams');
 });
 
 require __DIR__.'/auth.php';

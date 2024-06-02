@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('respuesta_correcta');
             $table->foreignId('exam_id')->constrained()->onDelete('cascade');
             $table->integer('question_id');
+            $table->boolean('is_correct');
             $table->timestamps();
         });
     }
