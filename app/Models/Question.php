@@ -25,6 +25,12 @@ class Question extends Model
         return $questions;
     }
 
+    public static function getQuestionById($question_id){
+        $questions = self::getQuestions();
+        $question = collect($questions)->where('id', $question_id)->first();
+        return $question;
+    }
+
     public function exam()
     {
         return $this->belongsTo(Exam::class);

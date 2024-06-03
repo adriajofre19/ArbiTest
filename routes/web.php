@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DoExamWithRdmQuestionsController;
 use App\Http\Controllers\StoreExamController;
 use App\Http\Controllers\GetDoItExamsController;
+use App\Http\Controllers\GetSolutionsOfExamController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -59,6 +60,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/do-exam-rdm', [DoExamWithRdmQuestionsController::class, 'index'])->name('exam-rdm-questions');
     Route::post('/store-exam', [StoreExamController::class, 'store'])->name('store-exam');
     Route::get('/my-exams', [GetDoItExamsController::class, 'getExamsForTheAuthUser'])->name('my-exams');
+    Route::get('/exam-solutions/{exam_id}', [GetSolutionsOfExamController::class, 'getExamSolutions'])->name('exam-solutions');
 });
 
 require __DIR__.'/auth.php';

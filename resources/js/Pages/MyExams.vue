@@ -13,10 +13,12 @@ console.log(props.exams);
 
 <template>
     <AuthenticatedLayout>
-        <div v-for="exam in exams" :key="exam.id" class="examens">
+        <a :href="'/exam-solutions/'+exam.id" v-for="exam in exams" :key="exam.id" class="examens">
+
             <p>{{ exam.name }}</p>
-            <p>{{ exam.correct_questions }}</p>
-        </div>
+            <p>{{ exam.correct_questions }} / {{ exam.total_questions }}</p>
+
+        </a>
     </AuthenticatedLayout>
 </template>
 

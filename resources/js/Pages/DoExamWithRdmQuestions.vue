@@ -38,55 +38,43 @@ onMounted(() => {
 
 <template>
     <AuthenticatedLayout>
+<div class='flex items-center justify-center min-h-screen from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br '>
+    <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white rounded-lg shadow-xl md:mt-8'>
+
+        <div class="border-b flex justify-between pb-2 mb-4">
+            <p>Examen de 25 preguntas</p>
+        </div>
+
         <form @submit.prevent="submit">
-            <div v-for="question in questions" :key="question.id" class="exam">
-                <h1>{{ question.index }}. {{ question.pregunta }}</h1>
-                <div>
-                    <input type="radio" v-model="question.respuesta_usuario" value="a"
+            <div v-for="question in questions" :key="question.id" class="mb-4">
+                <div class="bg-gray-800 text-white p-4 rounded-md">{{ question.index }}. {{ question.pregunta }}</div>
+                <div class="p-4">
+                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="a"
                         :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_a }}
                 </div>
-                <div>
-                    <input type="radio" v-model="question.respuesta_usuario" value="b"
+                <div class="p-4">
+                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="b"
                         :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_b }}
                 </div>
-                <div>
-                    <input type="radio" v-model="question.respuesta_usuario" value="c"
+                <div class="p-4">
+                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="c"
                         :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_c }}
                 </div>
-                <div>
-                    <input type="radio" v-model="question.respuesta_usuario" value="d"
+                <div class="p-4">
+                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="d"
                         :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_d }}
                 </div>
 
 
             </div>
-            <button type="submit">Enviar</button>
-        </form>
+            <div class="flex flex-row justify-end">
+            <button class="bg-gray-800 text-white p-4 rounded-md" type="submit">Enviar</button>
+        </div>
+</form>
+</div>
+</div>
     </AuthenticatedLayout>
 </template>
 
-<style scoped>
-.exam {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
 
-.exam h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
 
-.exam div {
-    margin: 10px 0;
-}
-
-.exam input {
-    margin-right: 10px;
-}
-
-.exam input[type="radio"] {
-    margin-right: 5px;
-}
-</style>

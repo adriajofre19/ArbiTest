@@ -4,33 +4,34 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
 use App\Models\Question;
 use App\Models\Exam;
+use App\Models\User;
 
 use Inertia\Inertia;
 
-class GetDoItExamsController extends Controller
+class GetSolutionsOfExamController extends Controller
 {
-    public function getExamsForTheAuthUser(){
+    public function getExamSolutions($exam_id){
 
-        $exams = Exam::where('user_id', Auth::id())->with('questions')->orderBy('created_at', 'desc')->get();
+        $exam = Exam::where('id', $exam_id)->with('questions')->first();
+
         
-        foreach($exams as $exam){
             $exam->correct_questions = 0;
             $exam->total_questions = count($exam->questions);
             foreach($exam->questions as $question){
+                $question->content = Question::getQuestionById($question->question_id);
                 if($question->is_correct == 1){
                     $exam->correct_questions++;
                 }
             }
-        }
-
-        return Inertia::render('MyExams', [
-            'exams' => $exams
-        ]);
+        
 
         
+
+        return Inertia::render('ExamSolutions', [
+            'exam' => $exam
+        ]);
     }
 }
