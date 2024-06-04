@@ -45,7 +45,7 @@ onMounted(() => {
 
         <form @submit.prevent="submit">
             <div v-for="question in questions" :key="question.id" class="mb-4 px-4 md:px-0">
-                <div class="bg-gray-800 text-white p-5 rounded-md">{{ question.index }}. {{ question.pregunta }}</div>
+                <div class="bg-gray-800 text-white p-5 rounded-md"><h1>{{ question.index }}. {{ question.pregunta }}</h1></div>
 
 <ul class="grid w-full mt-2">
     <li class="mb-2">
