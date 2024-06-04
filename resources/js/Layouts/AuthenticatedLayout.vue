@@ -121,6 +121,12 @@ const showingNavigationDropdown = ref(false);
                         <ResponsiveNavLink :href="route('dashboard')" :active="route().current('dashboard')">
                             Dashboard
                         </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('exam-rdm-questions')" :active="route().current('exam-rdm-questions')">
+                            Examen de 25 preguntas
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('my-exams')" :active="route().current('my-exams')">
+                            Mis exámenes
+                        </ResponsiveNavLink>
                     </div>
 
                     <!-- Responsive Settings Options -->

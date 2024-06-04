@@ -36,44 +36,61 @@ onMounted(() => {
 
 <template>
     <AuthenticatedLayout>
-<div class='flex items-center justify-center min-h-screen from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br '>
-    <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white rounded-lg shadow-xl md:mt-8'>
+<div class='flex items-center justify-center min-h-screen from-blue-100 via-blue-300 to-blue-500 bg-gradient-to-br '>
+    <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
 
-        <div class="border-b flex justify-between pb-2 mb-4">
+        <div class="border-b flex justify-between pb-2 mb-4 px-4">
             <p>Examen de 25 preguntas</p>
         </div>
 
         <form @submit.prevent="submit">
-            <div v-for="question in questions" :key="question.id" class="mb-4">
-                <div class="bg-gray-800 text-white p-4 rounded-md">{{ question.index }}. {{ question.pregunta }}</div>
+            <div v-for="question in questions" :key="question.id" class="mb-4 px-4 md:px-0">
+                <div class="bg-gray-800 text-white p-5 rounded-md">{{ question.index }}. {{ question.pregunta }}</div>
+
+<ul class="grid w-full mt-2">
+    <li class="mb-2">
+        <input type="radio" :id="'option_a'+question.id" v-model="question.respuesta_usuario" value="a" class="hidden peer" />
+        <label :for="'option_a'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">                           
+            <div class="block">
+                <div class="w-full">{{ question.respuesta_a }}</div>
+            </div>
+        </label>
+    </li>
+    <li class="mb-2">
+        <input type="radio" :id="'option_b'+question.id" v-model="question.respuesta_usuario" value="b" class="hidden peer">
+        <label :for="'option_b'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
+            <div class="block">
+                <div class="w-full">{{ question.respuesta_b }}</div>
+            </div>
+        </label>
+    </li>
+    <li class="mb-2">
+        <input type="radio" :id="'option_c'+question.id" v-model="question.respuesta_usuario" value="c" class="hidden peer" />
+        <label :for="'option_c'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">                           
+            <div class="block">
+                <div class="w-full">{{ question.respuesta_c }}</div>
+            </div>
+        </label>
+    </li>
+    <li class="mb-2">
+        <input type="radio" :id="'option_d'+question.id" v-model="question.respuesta_usuario" value="d" class="hidden peer">
+        <label :for="'option_d'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
+            <div class="block">
+                <div class="w-full">{{ question.respuesta_d }}</div>
+            </div>
+        </label>
+    </li>
+</ul>
                                
    
-        <div class="flex items-center ps-4 border-b border-gray-800">
-            <input :id="'bordered-radio-a'+question.id" type="radio" value="a" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
-            <label :for="'bordered-radio-a'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_a }}</label>
-        </div>
-
-        <div class="flex items-center ps-4 border-b border-gray-800">
-            <input :id="'bordered-radio-b'+question.id" type="radio" value="b" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
-            <label :for="'bordered-radio-b'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_b }}</label>
-        </div>
-
-        <div class="flex items-center ps-4 border-b border-gray-800">
-            <input :id="'bordered-radio-c'+question.id" type="radio" value="c" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
-            <label :for="'bordered-radio-c'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_c }}</label>
-        </div>
-
-        <div class="flex items-center ps-4 border-b border-gray-800">
-            <input :id="'bordered-radio-d'+question.id" type="radio" value="d" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
-            <label :for="'bordered-radio-d'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_d }}</label>
-        </div>
+        
 
 
 
             </div>
             
-        <div class="flex flex-row justify-end">
-            <button class="bg-gray-800 text-white p-4 rounded-md" type="submit">Enviar</button>
+        <div class="flex flex-row justify-end px-4">
+            <button class="bg-gray-800 text-white px-6 py-4 rounded-md" type="submit">Enviar</button>
         </div>
 </form>
 </div>
