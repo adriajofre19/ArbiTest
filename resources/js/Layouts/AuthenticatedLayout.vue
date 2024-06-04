@@ -156,7 +156,7 @@ const showingNavigationDropdown = ref(false);
             </header>
 
             <!-- Page Content -->
-            <main>
+            <main class="min-h-screen from-blue-100 via-blue-300 to-blue-500 bg-gradient-to-br">
                 <slot />
             </main>
         </div>

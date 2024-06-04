@@ -11,13 +11,21 @@ const props = defineProps ({
 
 <template>
     <AuthenticatedLayout>
-        <a :href="'/exam-solutions/'+exam.id" v-for="exam in exams" :key="exam.id" class="bg-gray-800 p-4 text-white rounded-md flex justify-between m-8">
 
-            <p>{{ exam.name }}</p>
-            <p>{{ exam.correct_questions }} / {{ exam.total_questions }}</p>
-            <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 text-black px-2 rounded-md">Aprobado</span>
-            <span class="bg-red-200 text-black px-2 rounded-md" v-else>Suspendido</span>
+    <div class="py-12" >
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 mb-4" v-for="exam in exams" :key="exam.id">
+                <a :href="'/exam-solutions/'+exam.id">
+                <div class="bg-white overflow-hidden flex justify-between shadow-sm sm:rounded-lg px-4 ">
+                    <div class="p-6 text-gray-900">{{ exam.name }}</div>
+                    <div class="p-6 text-gray-900">{{ exam.correct_questions }} / {{ exam.total_questions }}</div>
+                    <div class="p-6 text-gray-900">
+                        <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 text-black px-2 rounded-md">Aprobado</span>
+                        <span class="bg-red-200 text-black px-2 rounded-md" v-else>Suspendido</span>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
 
-        </a>
     </AuthenticatedLayout>
 </template>

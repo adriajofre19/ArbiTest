@@ -36,7 +36,7 @@ onMounted(() => {
 
 <template>
     <AuthenticatedLayout>
-<div class='flex items-center justify-center min-h-screen from-blue-100 via-blue-300 to-blue-500 bg-gradient-to-br '>
+<div class='flex items-center justify-center  '>
     <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
 
         <div class="border-b flex justify-between pb-2 mb-4 px-4">
