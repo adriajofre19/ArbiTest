@@ -366,7 +366,7 @@
         "respuesta_a": "a) Jugadores, suplentes y miembros del cuerpo técnico.",
         "respuesta_b": "b) Suplentes, sustituidos, miembros del cuerpo técnico y jugadores expulsados.",
         "respuesta_c": "c) Sólo los suplentes, sustituidos, entrenador, entrenadores auxiliares y el médico y ATS.",
-        "respuesta_d": "d) Aquellos que hayan sido identificados previamente conforme al reglamento de la competición, por ejemplo, suplentes, sustituidos y miembros del cuerpo técnico. o. *Nunca los jugadores expulsados.",
+        "respuesta_d": "d) Aquellos que hayan sido identificados previamente conforme al reglamento de la competición, por ejemplo, suplentes, sustituidos y miembros del cuerpo técnico. o. Nunca los jugadores expulsados.",
         "correcta": "d"
     },
     {
@@ -1165,7 +1165,7 @@
         "pregunta": "Si antes de comenzar el partido se reemplaza a un jugador por un suplente designado sin notificar al árbitro, ¿podrá este suplente continuar participando en el partido?",
         "respuesta_a": "a) Sí, pero deberá ser amonestado en la siguiente interrupción del juego",
         "respuesta_b": "b) Sí, pero el número de sustituciones se reduce",
-        "respuesta_c": "c) Sí. í. *No se tomarán medidas disciplinarias contra el suplente y no se reducirá el número de sustituciones del equipo.",
+        "respuesta_c": "c) Sí. í. No se tomarán medidas disciplinarias contra el suplente y no se reducirá el número de sustituciones del equipo.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -1256,7 +1256,7 @@
         "respuesta_a": "a) El árbitro puede aplicar la ventaja, hará que el entrenador salga del terreno de juego y le amonestará por entrar al terreno de juego sin permiso ya que no consiguió su objetivo.",
         "respuesta_b": "b) El árbitro puede aplicar la ventaja, hará que el entrenador salga del terreno de juego y le expulsará por entrar al terreno de juego e interferir en el mismo.",
         "respuesta_c": "c) El árbitro deberá detener el juego, hará que el entrenador salga del terreno de juego y le expulsará por entrar al terreno de juego e interferir en el mismo. El juego se reanudará con un TLD desde el lugar donde interfirió.",
-        "respuesta_d": "d) El árbitro puede aplicar la ventaja. a. *Si detiene el juego lo reanudará con un TLD o tiro penal desde el lugar donde interfirió. ó. *En todo caso expulsará al entrenador por entrar al terreno de juego e interferir en el mismo.",
+        "respuesta_d": "d) El árbitro puede aplicar la ventaja. a. Si detiene el juego lo reanudará con un TLD o tiro penal desde el lugar donde interfirió. ó. En todo caso expulsará al entrenador por entrar al terreno de juego e interferir en el mismo.",
         "correcta": "d"
     },
     {
@@ -1403,7 +1403,7 @@
         "regla": "Regla 3",
         "id": 141,
         "pregunta": "Un jugador que va a ser sustituido se encuentra próximo a la línea de banda opuesta a la zona de banquillos. El árbitro le indica que abandone el terreno de juego por esa banda, pero el jugador hace caso omiso a las indicaciones del árbitro e insiste en cruzar el campo para salir junto a los banquillos. Ese jugador ya había sido amonestado con anterioridad durante el partido. ¿Cuál debe ser la decisión del árbitro?",
-        "respuesta_a": "a) Amonestar al jugador por hacer caso omiso a sus instrucciones. s. *Siendo su segunda amarilla, el jugador será expulsado. o. *Se puede decidir sustituir a otro jugador y que se complete la sustitución, pero el equipo jugará con un  jugador menos.",
+        "respuesta_a": "a) Amonestar al jugador por hacer caso omiso a sus instrucciones. s. Siendo su segunda amarilla, el jugador será expulsado. o. Se puede decidir sustituir a otro jugador y que se complete la sustitución, pero el equipo jugará con un  jugador menos.",
         "respuesta_b": "b) Amonestar al jugador, pero permite la entrada del suplente y que su equipo siga jugando con 11 jugadores ( si no había ningún jugador previamente expulsado), ya que se había solicitado la sustitución previamente.",
         "respuesta_c": "c) Advertir al jugador y permitir la sustitución.",
         "respuesta_d": "d) Expulsar directamente con tarjeta roja al jugador por hacer caso omiso a sus instrucciones.",
@@ -1633,7 +1633,7 @@
         "regla": "Regla 3",
         "id": 164,
         "pregunta": "Un jugador, cuyo equipo tiene sólo 7 jugadores en el terreno de juego, recibe atención médica cuando el balón no está en juego, el árbitro . . .",
-        "respuesta_a": "a) Detiene el partido hasta que el jugador haya recibido tratamiento y pueda reincorporarse al juego. o. *Si no puede reincorporase, suspende definitivamente el partido.",
+        "respuesta_a": "a) Detiene el partido hasta que el jugador haya recibido tratamiento y pueda reincorporarse al juego. o. Si no puede reincorporase, suspende definitivamente el partido.",
         "respuesta_b": "b) Detiene el partido y lo suspende inmediatamente.",
         "respuesta_c": "c) Detiene el partido hasta que el jugador haya recibido tratamiento y vuelva al terreno de juego. Si no puede volver, continuará con el partido y lo reflejará en el informe.",
         "respuesta_d": "d) Ninguna es correcta.",
@@ -1655,7 +1655,7 @@
         "pregunta": "Un equipo está a punto de conseguir un gol y en ese momento uno de los jugadores adversarios abandona el terreno deliberadamente dejando a su equipo con 6 jugadores. El árbitro . . .",
         "respuesta_a": "a) Suspende definitivamente el partido.",
         "respuesta_b": "b) Si se consigue el gol, no lo concederá.",
-        "respuesta_c": "c) Concede el gol y si el jugador no puede volver, suspende el partido e informa a las autoridades competentes. s. *El jugador debe ser amonestado por abandonar deliberadamente el terreno de juego sin permiso.",
+        "respuesta_c": "c) Concede el gol y si el jugador no puede volver, suspende el partido e informa a las autoridades competentes. s. El jugador debe ser amonestado por abandonar deliberadamente el terreno de juego sin permiso.",
         "respuesta_d": "d) Concede el gol y si el jugador no puede volver, suspende el partido e informa a las autoridades competentes. El jugador debe ser amonestado por conducta antideportiva.",
         "correcta": "c"
     },
@@ -1814,7 +1814,7 @@
         "id": 182,
         "pregunta": "Un jugador abandona el terreno de juego al ser sustituido. El suplente entra en el terreno de juego e insulta al cuarto árbitro. ¿Qué decisión toma el árbitro?",
         "respuesta_a": "a) Expulsa al suplente, y reanuda el partido con el jugador sustituido. El cambio no es efectivo porque el suplente todavía no había entrado oficialmente cuando fue expulsado.",
-        "respuesta_b": "b) Expulsa al suplente y reanuda el partido conforme a las Reglas de Juego. o. *La sustitución ya se había completado.",
+        "respuesta_b": "b) Expulsa al suplente y reanuda el partido conforme a las Reglas de Juego. o. La sustitución ya se había completado.",
         "respuesta_c": "c) Expulsa al jugador sustituido, y reanuda el partido con un tiro libre indirecto a favor del equipo adversario. La sustitución no se había completado por cuanto no se había reiniciado el juego.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "b"
@@ -1824,7 +1824,7 @@
         "id": 183,
         "pregunta": "El equipo atacante está jugando con 7 jugadores. Un jugador atacante se cae al suelo sujetando su rodilla. Su lesión no se considera grave. ¿Qué decisión toma el árbitro?",
         "respuesta_a": "a) Detiene el juego, espera hasta que el jugador se recupere o sea sustituido y, en el caso de no poder continuar con 7 jugadores, suspende definitivamente el partido.",
-        "respuesta_b": "b) Deja que el juego continúe y, una vez interrumpido, comprobará si dicho jugador puede recuperarse o es sustituido. o. *En el caso de no poder continuar con 7 jugadores, suspenderá definitivamente el partido.",
+        "respuesta_b": "b) Deja que el juego continúe y, una vez interrumpido, comprobará si dicho jugador puede recuperarse o es sustituido. o. En el caso de no poder continuar con 7 jugadores, suspenderá definitivamente el partido.",
         "respuesta_c": "c) Detiene el juego y permite que el jugador sea atendido. Si no se puede recuperar suspenderá definitivamente el partido.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "b"
@@ -1915,7 +1915,7 @@
         "pregunta": "Un equipo está a punto de conseguir un gol. En el instante en el que el balón va a entrar en la portería uno de los jugadores del equipo que va a recibir el gol, que sólo se compone de 7 jugadores, abandona de forma deliberada el terreno de juego. ¿Qué decisión toma el árbitro?",
         "respuesta_a": "a) Inmediatamente suspende definitivamente el partido.",
         "respuesta_b": "b) Si se consigue el gol, no lo concederá.",
-        "respuesta_c": "c) Concede el gol. l. *Si el jugador que abandonó el campo no vuelve para el saque de salida  después del gol, suspende definitivamente el partido e informa sobre el jugador a la autoridad competente.",
+        "respuesta_c": "c) Concede el gol. l. Si el jugador que abandonó el campo no vuelve para el saque de salida  después del gol, suspende definitivamente el partido e informa sobre el jugador a la autoridad competente.",
         "respuesta_d": "d) Deja que continúe el partido, pues el jugador no ha abandonado el terreno de juego ni por lesión ni por expulsión.",
         "correcta": "c"
     },
@@ -1955,7 +1955,7 @@
         "pregunta": "Un equipo que juega con 12 jugadores recibe un gol y el árbitro se da cuenta del hecho antes de que se reanude el juego. ¿Qué decisión debe tomar?",
         "respuesta_a": "a) No concede el gol.",
         "respuesta_b": "b) Concede el gol. Amonesta al jugador Nº 12 por conducta antideportiva y le indica que abandone el terreno de juego.",
-        "respuesta_c": "c) Concede el gol. l. *Amonesta al jugador Nº 12 por entrada indebida y le indica que abandone el terreno de juego.",
+        "respuesta_c": "c) Concede el gol. l. Amonesta al jugador Nº 12 por entrada indebida y le indica que abandone el terreno de juego.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -1975,7 +1975,7 @@
         "pregunta": "Cuando el balón va a entrar en la meta, un espectador lanza un objeto que llega a impactar en el balón, pero no evita que el balón entre en la misma. ¿Qué decisión toma el árbitro?",
         "respuesta_a": "a) Detiene el juego y lo reanuda mediante balón a tierra desde el lugar donde impactó el objeto con el balón.",
         "respuesta_b": "b) Detiene el juego y lo reanuda mediante un balón a tierra desde el lugar donde estaba el balón cuando el objeto fue lanzado.",
-        "respuesta_c": "c) Deja seguir el juego y concede el gol si el objeto no interfiere en un defensor. r. *Hace un informe detallado al final del partido.",
+        "respuesta_c": "c) Deja seguir el juego y concede el gol si el objeto no interfiere en un defensor. r. Hace un informe detallado al final del partido.",
         "respuesta_d": "d) Deja seguir el juego y concede el gol si el objeto no interfiere en ningún jugador. Hace un informe detallado al final del partido.",
         "correcta": "c"
     },
@@ -2195,7 +2195,7 @@
         "pregunta": "¿Qué ocurre si un jugador muestra un eslogan, imagen, mensaje o una publicidad, debajo de la camiseta oficial del equipo?",
         "respuesta_a": "a) No debe hacer nada si el jugador no se quita la camiseta para mostrar el lema. El jugador es sancionado según el reglamento de la competición.",
         "respuesta_b": "b) El árbitro lo reflejará en el informe del partido. Los organizadores de la competición, la federación nacional de fútbol o el IFAB serán los encargados de sancionar al jugador o al equipo.",
-        "respuesta_c": "c) El árbitro lo reflejará en el informe del partido. o. *Los organizadores de la competición, la federación nacional de fútbol o la FIFA serán los encargados de sancionar al jugador o al equipo.",
+        "respuesta_c": "c) El árbitro lo reflejará en el informe del partido. o. Los organizadores de la competición, la federación nacional de fútbol o la FIFA serán los encargados de sancionar al jugador o al equipo.",
         "respuesta_d": "d) El árbitro debe amonestar al jugador por conducta antideportiva y reflejarlo en el informe.",
         "correcta": "c"
     },
@@ -2214,7 +2214,7 @@
         "id": 222,
         "pregunta": "Cada guardameta vestirá colores que lo diferencien . . .",
         "respuesta_a": "a) del equipo adversario, el árbitro y los árbitros asistentes. Si las camisetas de los 2 guardametas fueran del mismo color y ninguno de ellos dispusiera de una de repuesto de otro color, el árbitro autorizará que se juegue el partido.",
-        "respuesta_b": "b) de los demás jugadores y el equipo arbitral. l. *Si las camisetas de los 2 guardametas fueran del mismo color y ninguno de ellos dispusiera de  una de repuesto de otro color, el árbitro autorizará que se juegue el partido.",
+        "respuesta_b": "b) de los demás jugadores y el equipo arbitral. l. Si las camisetas de los 2 guardametas fueran del mismo color y ninguno de ellos dispusiera de  una de repuesto de otro color, el árbitro autorizará que se juegue el partido.",
         "respuesta_c": "c) del guardameta adversario, los jugadores adversarios, el árbitro, los árbitros asistentes y el cuarto árbitro. Si las camisetas de los 2 guardametas fueran del mismo color y ninguno de ellos dispusiera de una de repuesto de otro color, el árbitro autorizará que se juegue el partido.",
         "respuesta_d": "d) de los demás jugadores y el equipo arbitral. Si las camisetas de los 2 guardametas fueran del mismo color y ninguno de ellos dispusiera de una de repuesto de otro color, el árbitro no autorizará que se juegue el partido.",
         "correcta": "b"
@@ -2405,7 +2405,7 @@
         "pregunta": "Un jugador sale del terreno de juego para poner en orden su calzado. ¿Puede autorizar el árbitro a que vuelva al terreno de juego mientras el balón está en juego?",
         "respuesta_a": "a) No. Al tratarse de equipamiento, el juego debe estar detenido para revisarlo y autorizar el reingreso.",
         "respuesta_b": "b) Sí, pero solamente si el árbitro ha revisado al calzado, aunque el partido se juegue con árbitros asistentes y cuarto árbitro.",
-        "respuesta_c": "c) Sí, pero sólo si un miembro del equipo arbitral ha revisado el calzado antes de que vuelva a entrar. r. *Puede reingresar en el terreno de juego por una de las líneas de banda si el balón está en juego.",
+        "respuesta_c": "c) Sí, pero sólo si un miembro del equipo arbitral ha revisado el calzado antes de que vuelva a entrar. r. Puede reingresar en el terreno de juego por una de las líneas de banda si el balón está en juego.",
         "respuesta_d": "d) Sí, pero sólo puede reingresar en el terreno de juego por una de las líneas de banda.",
         "correcta": "c"
     },
@@ -2823,7 +2823,7 @@
         "regla": "Regla 5",
         "id": 283,
         "pregunta": "Tras dar el árbitro la señal para efectuar el saque inicial, por discrepancias originadas por motivos laborales, los jugadores del equipo rojo se reúnen en el centro del terreno de juego, negándose a jugar. ¿Cuál debe ser la decisión   del árbitro si el saque inicial lo realiza el equipo azul y organiza un ataque que termina en gol ante la pasividad de los jugadores del equipo rojo?",
-        "respuesta_a": "a) Concederá el gol. l. *Si los jugadores del equipo rojo rehusaran ejecutar el saque de inicio tras el gol, suspenderá el partido e informará a las autoridades.",
+        "respuesta_a": "a) Concederá el gol. l. Si los jugadores del equipo rojo rehusaran ejecutar el saque de inicio tras el gol, suspenderá el partido e informará a las autoridades.",
         "respuesta_b": "b) No concederá el gol, ya que los jugadores del equipo rojo no participaron en el juego.",
         "respuesta_c": "c) Si una vez efectuado el saque inicial por el equipo azul, los jugadores del equipo rojo persisten en no jugar, el árbitro dará por finalizado el partido antes de que el equipo azul pueda marcar un gol.",
         "respuesta_d": "d) Ninguna de las respuestas es correcta.",
@@ -2844,7 +2844,7 @@
         "id": 285,
         "pregunta": "Un jugador, después de chocar con un adversario, comienza a sangrar. El árbitro le indica que abandone el terreno de juego para ser tratado. Una vez recuperado vuelve al mismo sin permiso del árbitro. ¿Es esto correcto?",
         "respuesta_a": "a) Sí, siempre y cuando haya obtenido permiso de cualquier otro miembro del equipo arbitral.",
-        "respuesta_b": "b) No. o. *El árbitro debe concederle el permiso.",
+        "respuesta_b": "b) No. o. El árbitro debe concederle el permiso.",
         "respuesta_c": "c) No. El árbitro asistente es el responsable de permitir la vuelta al terreno de juego.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "b"
@@ -2936,7 +2936,7 @@
         "respuesta_a": "a) Habla con el capitán para que le obligue a salir del terreno de juego.",
         "respuesta_b": "b) Deja que el juego continúe y deja constancia en el acta del partido.",
         "respuesta_c": "c) Habla con los miembros del cuerpo técnico del equipo para que le obliguen a salir del terreno de juego. Si el jugador no lo abandona, el partido debe continuar.",
-        "respuesta_d": "d) Habla con el capitán y los miembros del cuerpo técnico del equipo para que le obliguen a salir del terreno de juego. o. *Si el jugador no lo abandona, suspenderá definitivamente el partido.",
+        "respuesta_d": "d) Habla con el capitán y los miembros del cuerpo técnico del equipo para que le obliguen a salir del terreno de juego. o. Si el jugador no lo abandona, suspenderá definitivamente el partido.",
         "correcta": "d"
     },
     {
@@ -3025,7 +3025,7 @@
         "pregunta": "¿Un jugador que está fuera del terreno de juego para recibir atención médica, puede reingresar en el mismo por la línea de meta, estando el balón en juego?",
         "respuesta_a": "a) Sí.",
         "respuesta_b": "b) Sí, con el permiso del árbitro.",
-        "respuesta_c": "c) No. o. *Si el balón está en juego sólo puede reingresar por la línea de banda.",
+        "respuesta_c": "c) No. o. Si el balón está en juego sólo puede reingresar por la línea de banda.",
         "respuesta_d": "d) Queda a la interpretación del árbitro, al considerar si su entrada podría provocar interferencia en el juego y beneficio táctico.",
         "correcta": "c"
     },
@@ -3036,7 +3036,7 @@
         "respuesta_a": "a) El árbitro deja que continúe siempre que la persona lesionada haya recibido el tratamiento adecuado.",
         "respuesta_b": "b) El árbitro lo suspende definitivamente porque se considera que es un incidente muy peligroso. Debe remitir un informe sobre el incidente a las autoridades competentes.",
         "respuesta_c": "c) Depende del Reglamento de la competición.",
-        "respuesta_d": "d) Dependiendo de la gravedad del incidente, el árbitro puede decidir que el partido continúe o puede suspenderlo temporal o definitivamente. e. *Deberá comunicar este incidente a las autoridades responsables.",
+        "respuesta_d": "d) Dependiendo de la gravedad del incidente, el árbitro puede decidir que el partido continúe o puede suspenderlo temporal o definitivamente. e. Deberá comunicar este incidente a las autoridades responsables.",
         "correcta": "d"
     },
     {
@@ -3133,7 +3133,7 @@
         "regla": "Regla 5",
         "id": 314,
         "pregunta": "El árbitro olvida las tarjetas en el vestuario y en un momento del partido necesita utilizarlas. ¿Qué decisión toma?",
-        "respuesta_a": "a) Podrá amonestar o expulsar verbalmente. e. *Informa al jugador infractor y a los capitanes de ambos equipos.",
+        "respuesta_a": "a) Podrá amonestar o expulsar verbalmente. e. Informa al jugador infractor y a los capitanes de ambos equipos.",
         "respuesta_b": "b) Detiene el juego y ordena al cuarto árbitro o al árbitro asistente más próximo a banquillos que vaya al vestuario a por ellas.",
         "respuesta_c": "c) No puede amonestar ni expulsar a ningún jugador sin mostrar públicamente la tarjeta, por tanto, lo hará constar en el informe",
         "respuesta_d": "d) Puede amonestar y expulsar por medio de gestos, simulando llevar la tarjeta en la mano.",
@@ -3163,7 +3163,7 @@
         "regla": "Regla 5",
         "id": 317,
         "pregunta": "Un árbitro asistente señala que el balón ha salido por la línea de banda. A continuación, un defensor dentro del área penal golpea a un atacante de forma violenta. ¿Qué decisión toma el árbitro?",
-        "respuesta_a": "a) Expulsa al defensor por conducta violenta. a. *El juego se reanuda con un saque de banda.",
+        "respuesta_a": "a) Expulsa al defensor por conducta violenta. a. El juego se reanuda con un saque de banda.",
         "respuesta_b": "b) Expulsa al defensor por conducta violenta. El juego se reanuda con un tiro penal",
         "respuesta_c": "c) Amonesta al defensor por conducta antideportiva. El juego se reanuda con un saque de banda.",
         "respuesta_d": "d) Amonesta al defensor por conducta antideportiva. El juego se reanuda con un tiro penal.",
@@ -3485,7 +3485,7 @@
         "pregunta": "¿Existe una situación particular en la que el árbitro está obligado a aceptar la decisión de uno de sus árbitros asistentes?",
         "respuesta_a": "a) Sí, en los saques de banda, meta, esquina y fueras de juego.",
         "respuesta_b": "b) No, el árbitro nunca está obligado a considerar una decisión del árbitro asistente.",
-        "respuesta_c": "c) Sí. í. *Si el árbitro ha estado temporalmente incapacitado y el juego ha continuado bajo la supervisión del resto de miembros del equipo arbitral.",
+        "respuesta_c": "c) Sí. í. Si el árbitro ha estado temporalmente incapacitado y el juego ha continuado bajo la supervisión del resto de miembros del equipo arbitral.",
         "respuesta_d": "d) Sí, siempre que el árbitro asistente esté más cerca de la jugada.",
         "correcta": "c"
     },
@@ -3884,7 +3884,7 @@
         "id": 389,
         "pregunta": "¿Se deja a la discreción del árbitro decidir si debe añadirse una pérdida de tiempo por una lesión u otra razón?",
         "respuesta_a": "a) No.",
-        "respuesta_b": "b) No, el árbitro debe añadir a cada periodo del partido todo el tiempo perdido por razones señaladas en las Reglas de Juego. o. *Sin embargo, la cantidad de tiempo a añadir queda a su discreción.",
+        "respuesta_b": "b) No, el árbitro debe añadir a cada periodo del partido todo el tiempo perdido por razones señaladas en las Reglas de Juego. o. Sin embargo, la cantidad de tiempo a añadir queda a su discreción.",
         "respuesta_c": "c) Sí, pues las Reglas de Juego no dicen nada respecto a si un árbitro debe añadir el tiempo perdido o no, se deja a su discreción.",
         "respuesta_d": "d) Ninguna de las respuestas es correcta.",
         "correcta": "b"
@@ -4325,7 +4325,7 @@
         "pregunta": "Un jugador ejecuta el saque inicial al comienzo del partido. Al inicio del segundo tiempo, ese mismo equipo ejecuta de nuevo el saque; el árbitro se da cuenta de tal circunstancia pasado un minuto. ¿Qué decisión debe tomar?",
         "respuesta_a": "a) Detiene el partido, amonesta al jugador que ejecutó el saque y da un balón a tierra donde se encontraba el balón en el momento de detener el partido.",
         "respuesta_b": "b) Detiene el partido, amonesta al jugador que ejecutó el saque y concede un tiro libre indirecto donde se encontraba el balón en el momento de detener el partido.",
-        "respuesta_c": "c) Deja que el juego continúe. e. *Una vez finalizado el partido, reflejará tal circunstancia en el acta del partido.",
+        "respuesta_c": "c) Deja que el juego continúe. e. Una vez finalizado el partido, reflejará tal circunstancia en el acta del partido.",
         "respuesta_d": "d) Detiene el partido y ordena repetir el saque inicial por parte del otro equipo. Comienza a cronometrar de nuevo.",
         "correcta": "c"
     },
@@ -4855,7 +4855,7 @@
         "pregunta": "¿Puede un jugador excluido de los tiros desde el punto de penalti participar en ellos para igualar el número de jugadores?",
         "respuesta_a": "a) Sí, si el guardameta se lesiona durante los tiros desde el punto de penalti y no se han cubierto el cupo de sustituciones.",
         "respuesta_b": "b) No, nunca, puesto que está excluido.",
-        "respuesta_c": "c) Sí. í. *Puede sustituir al guardameta antes o durante los tiros desde el punto de penalti siempre que no pueda continuar.",
+        "respuesta_c": "c) Sí. í. Puede sustituir al guardameta antes o durante los tiros desde el punto de penalti siempre que no pueda continuar.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -4873,7 +4873,7 @@
         "regla": "Regla 10",
         "id": 488,
         "pregunta": "Durante el lanzamiento de una tanda de penales, sin DAG...",
-        "respuesta_a": "a) Un árbitro asistente se colocará en la intersección de la línea de meta con el área de meta y el otro en el círculo central. l. *Si hubiera árbitros asistentes adicionales, serán estos los que se coloquen en la intersección de la línea de meta con el área de meta, a cada lado de la portería, y los árbitros asistentes en el círculo central.",
+        "respuesta_a": "a) Un árbitro asistente se colocará en la intersección de la línea de meta con el área de meta y el otro en el círculo central. l. Si hubiera árbitros asistentes adicionales, serán estos los que se coloquen en la intersección de la línea de meta con el área de meta, a cada lado de la portería, y los árbitros asistentes en el círculo central.",
         "respuesta_b": "b) Un árbitro asistente se ubicará en la intersección del área de penal con la línea de meta y el otro en el círculo central. Si hubiera árbitros asistentes adicionales, serán estos los que se coloquen en la intersección de la línea de meta con el área de meta, a cada lado de la portería, y los árbitros asistentes en el círculo central.",
         "respuesta_c": "c) Un árbitro asistente se colocará en la intersección de la línea de meta con el área meta y el otro en el círculo central. Si hubiera árbitros asistentes adicionales, uno de ellos y un árbitro asistente se colocarán en la intersección de la línea de meta con el área de meta, a cada lado de la portería, y el otro árbitro asistente y el otro árbitro asistente adicional se colocarán en el círculo central.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
@@ -4915,7 +4915,7 @@
         "pregunta": "El título de las reglas 3, 6, 10 y 12 es:",
         "respuesta_a": "a) El número de jugadores. Los otros miembros del equipo arbitral. El resultado de un partido. Faltas y conducta incorrecta.",
         "respuesta_b": "b) Los jugadores. Miembros del equipo arbitral. El resultado de un partido. Faltas e incorrecciones.",
-        "respuesta_c": "c) Los jugadores. s. *Los otros miembros del equipo arbitral. l. *El resultado de un partido. o. *Faltas y conducta incorrecta.",
+        "respuesta_c": "c) Los jugadores. s. Los otros miembros del equipo arbitral. l. El resultado de un partido. o. Faltas y conducta incorrecta.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -4953,7 +4953,7 @@
         "regla": "Regla 10",
         "id": 496,
         "pregunta": "¿Cuál de las siguientes respuestas no es correcta?",
-        "respuesta_a": "a) Si finaliza el partido y antes de efectuarse lanzamientos de una tanda de penales, uno de los equipos dispone de más jugadores que su rival, deberá reducir su número para equipararse al de su adversario. o. *Si esto ocurriera durante la tanda de penales, no se igualarán ambos equipos en el mismo número de jugadores.",
+        "respuesta_a": "a) Si finaliza el partido y antes de efectuarse lanzamientos de una tanda de penales, uno de los equipos dispone de más jugadores que su rival, deberá reducir su número para equipararse al de su adversario. o. Si esto ocurriera durante la tanda de penales, no se igualarán ambos equipos en el mismo número de jugadores.",
         "respuesta_b": "b) Si finaliza el partido y antes de efectuarse lanzamientos de una tanda de penales o  durante los mismos, uno de los equipos dispone de más jugadores que su rival, deberá reducir su número para equipararse al de su adversario.",
         "respuesta_c": "c) Un guardameta que no pueda continuar antes o durante los tiros podrá ser sustituido por un jugador excluido para igualar el número de jugadores o, si el equipo no ha utilizado el número máximo permitido de sustituciones, por un sustituto designado.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
@@ -4963,7 +4963,7 @@
         "regla": "Regla 10",
         "id": 497,
         "pregunta": "¿Cuál de las siguientes respuestas es correcta?",
-        "respuesta_a": "a) Antes de procederse a la tanda de penales el árbitro realizará el sorteo y el ganador del mismo elegirá el orden de preferencia en hacerlo en primer o segundo lugar. r. *Los equipos no informarán al árbitro del orden en el que ejecutarán los tiros, puesto que serán ellos los responsables en establecer dicho orden con los jugadores de sus equipos.",
+        "respuesta_a": "a) Antes de procederse a la tanda de penales el árbitro realizará el sorteo y el ganador del mismo elegirá el orden de preferencia en hacerlo en primer o segundo lugar. r. Los equipos no informarán al árbitro del orden en el que ejecutarán los tiros, puesto que serán ellos los responsables en establecer dicho orden con los jugadores de sus equipos.",
         "respuesta_b": "b) Un guardameta que no pueda continuar por lesión durante los lanzamientos de una tanda de penales, será sustituido por un sustituto ( aunque el equipo haya agotado el cupo de sustituciones ya que la regla permite este cambio extra para el portero en caso de lesión en una tanda de penales) o también puede ser sustituido por un jugador excluido para la ejecución de los lanzamientos de la tanda de penales.",
         "respuesta_c": "c) Antes de procederse a la tanda de penales el árbitro realizará el sortero y el ganador del mismo elegirá el orden de preferencia en hacerlo en primer o segundo lugar. El árbitro es quien elige la portería en la que se ejecutarán los tiros, salvo que por motivos de seguridad deba modificar su decisión antes de los lanzamientos o durante los mismos.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
@@ -5244,7 +5244,7 @@
         "id": 525,
         "pregunta": "Tras el final de un partido, algunos jugadores abandonan el terreno de juego y no regresan para ejecutar la tanda de penales y determinar así el ganador del partido. ¿Qué decisión toma el árbitro?",
         "respuesta_a": "a) Ordena al equipo adversario ejecutar sus tiros desde el punto de penalti.",
-        "respuesta_b": "b) Todos los jugadores que no estén lesionados deben participar en el lanzamiento de la tanda de penales. s. *Si no regresan al terreno de juego a tiempo para ejecutarlos, los tiros de estos jugadores se considerarán no marcados.",
+        "respuesta_b": "b) Todos los jugadores que no estén lesionados deben participar en el lanzamiento de la tanda de penales. s. Si no regresan al terreno de juego a tiempo para ejecutarlos, los tiros de estos jugadores se considerarán no marcados.",
         "respuesta_c": "c) Todos los jugadores estén o no lesionados deben participar en el lanzamiento de la tanda de penales. Si no regresan al terreno de juego, no se lanzarán los tiros desde el punto de penalti y el árbitro informará a las autoridades correspondientes.",
         "respuesta_d": "d) Declara vencedor al otro equipo.",
         "correcta": "b"
@@ -5373,7 +5373,7 @@
         "regla": "Regla 11",
         "id": 538,
         "pregunta": "Si un defensor abandona intencionadamente el terreno de juego sin autorización del árbitro...",
-        "respuesta_a": "a) Se considerará situado, a efectos del fuera de juego, sobre la línea de meta o de banda hasta la siguiente parada del juego o hasta que el equipo defensor juegue el balón hacia la línea central y el balón haya salido del área penal. l. *El defensor deberá ser amonestado.",
+        "respuesta_a": "a) Se considerará situado, a efectos del fuera de juego, sobre la línea de meta o de banda hasta la siguiente parada del juego o hasta que el equipo defensor juegue el balón hacia la línea central y el balón haya salido del área penal. l. El defensor deberá ser amonestado.",
         "respuesta_b": "b) Se considerará situado, a efectos del fuera de juego, sobre la línea de meta o de banda hasta la siguiente parada del juego o hasta que el equipo defensor juegue el balón hacia la línea central y el balón haya salido del área penal. El defensor no será amonestado.",
         "respuesta_c": "c) Se considerará situado, a efectos del fuera de juego, sobre la línea de meta o de banda hasta la siguiente parada del juego o hasta que el defensor vuelva a penetrar al terreno de juego. El defensor deberá ser amonestado.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
@@ -5493,7 +5493,7 @@
         "regla": "Regla 11",
         "id": 550,
         "pregunta": "Un jugador defensor abandona el terreno de juego por la línea de meta de forma deliberada para dejar a un atacante en posición de fuera de juego ¿qué decisión adoptará el árbitro?",
-        "respuesta_a": "a) Permitir que el juego continúe, considerando al jugador defensor que a todos los efectos está situado en la línea de meta hasta la siguiente parada del juego o hasta que el equipo defensor haya jugado el balón hacia la línea central y se encuentre fuera del área penal. l. *El jugador será amonestado cuando el balón deje de estar en juego.",
+        "respuesta_a": "a) Permitir que el juego continúe, considerando al jugador defensor que a todos los efectos está situado en la línea de meta hasta la siguiente parada del juego o hasta que el equipo defensor haya jugado el balón hacia la línea central y se encuentre fuera del área penal. l. El jugador será amonestado cuando el balón deje de estar en juego.",
         "respuesta_b": "b) Permitir que el juego continúe, considerando al jugador defensor que a todos los efectos está situado en la línea de meta hasta la siguiente detención del juego. El jugador será amonestado cuando el balón deje de estar en juego.",
         "respuesta_c": "c) Dejar que el juego continúe y amonestar al jugador defensor por conducta antideportiva.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
@@ -5623,7 +5623,7 @@
         "regla": "Regla 11",
         "id": 563,
         "pregunta": "Un defensor abandona el terreno de juego por su línea de meta para dejar a un adversario en posición de fuera de juego. ¿Qué decisión toma el árbitro?",
-        "respuesta_a": "a) Permite que el juego continúe si el balón está en posesión del equipo adversario. o. *Cuando el balón no esté en juego, amonesta al defensor por salir deliberadamente del terreno de juego sin su permiso.",
+        "respuesta_a": "a) Permite que el juego continúe si el balón está en posesión del equipo adversario. o. Cuando el balón no esté en juego, amonesta al defensor por salir deliberadamente del terreno de juego sin su permiso.",
         "respuesta_b": "b) Deja que el juego continúe sin adoptar ninguna medida disciplinaria contra el defensor.",
         "respuesta_c": "c) Debe parar inmediatamente el partido y amonestar al defensor por salir del terreno de juego sin su permiso. Reanudará con un tiro libre indirecto a favor del equipo adversario en el lugar donde se encontraba el balón en el momento que detuvo el partido.",
         "respuesta_d": "d) Permite que el juego continúe si el balón está en posesión del equipo adversario. Cuando el balón no esté en juego, amonesta al defensor por conducta antideportiva.",
@@ -5833,7 +5833,7 @@
         "regla": "Regla 11",
         "id": 584,
         "pregunta": "Un jugador en posición de fuera de juego sale del terreno de juego para no ser sancionado por fuera de juego. ¿Cúando puede reincorporarse al terreno de juego?",
-        "respuesta_a": "a) En la siguiente interrupción del juego o después de que el equipo defensor haya jugado el balón hacia la línea central y se encuentre fuera de su área penal. l. *Se amonestará si vuelve a entrar sin el permiso del árbitro y no es sancionado por fuera de juego pero obtiene una ventaja por ello.",
+        "respuesta_a": "a) En la siguiente interrupción del juego o después de que el equipo defensor haya jugado el balón hacia la línea central y se encuentre fuera de su área penal. l. Se amonestará si vuelve a entrar sin el permiso del árbitro y no es sancionado por fuera de juego pero obtiene una ventaja por ello.",
         "respuesta_b": "b) En la siguiente interrupción del juego o después de que el equipo defensor haya jugado el balón hacia la línea central y se encuentre fuera de su área penal. Se amonestará si vuelve a entrar sin el permiso del árbitro y es sancionado por fuera de juego u obtiene una ventaja por ello.",
         "respuesta_c": "c) Solamente en la siguiente interrupción del  juego. Se amonestará si vuelve a entrar sin el permiso del árbitro y no es sancionado por fuera de juego pero obtiene una ventaja por ello.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
@@ -6045,7 +6045,7 @@
         "pregunta": "El hecho de que dos jugadores de un mismo equipo disputen el balón a un contrario ...",
         "respuesta_a": "a) es siempre sancionable con un tiro libre directo a favor del equipo adversario.",
         "respuesta_b": "b) es siempre sancionable con un tiro libre indirecto a favor del equipo adversario.",
-        "respuesta_c": "c) no es siempre una falta. a. *Depende de cómo disputen el balón.",
+        "respuesta_c": "c) no es siempre una falta. a. Depende de cómo disputen el balón.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -6066,7 +6066,7 @@
         "respuesta_a": "a) Detendrá el juego inmediatamente y expulsará a dicho jugador.",
         "respuesta_b": "b) Detendrá el juego cuando el equipo del jugador que debió ser expulsado saque ventaja táctica de ello. Expulsará a dicho jugador y reanudará con TLI.",
         "respuesta_c": "c) Expulsará al jugador cuando intervenga en el juego, y reanudará con balón a tierra",
-        "respuesta_d": "d) Detendrá el juego cuando el jugador que debió ser expulsado interfiera en el juego o en un adversario. o. *Expulsará a dicho jugador y reanudará con TLI, a menos que haya cometido una infracción más grave.",
+        "respuesta_d": "d) Detendrá el juego cuando el jugador que debió ser expulsado interfiera en el juego o en un adversario. o. Expulsará a dicho jugador y reanudará con TLI, a menos que haya cometido una infracción más grave.",
         "correcta": "d"
     },
     {
@@ -7105,7 +7105,7 @@
         "pregunta": "¿Puede un guardameta blocar el balón con las manos si se lo envía un defensor cedido con la rodilla sin haber utilizado ningún truco para burlar la Regla?",
         "respuesta_a": "a) No. Nunca.",
         "respuesta_b": "b) Algunas veces.",
-        "respuesta_c": "c) Sí. í. *Siempre.",
+        "respuesta_c": "c) Sí. í. Siempre.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -7116,7 +7116,7 @@
         "respuesta_a": "a) Expulsa al jugador, y permite la sustitución. Manda reanudar el juego conforme a las Reglas de Juego.",
         "respuesta_b": "b) Expulsa al jugador, y no permite la sustitución. Manda reanudar el juego con un tiro libre directo a favor del equipo adversario.",
         "respuesta_c": "c) Expulsa al jugador, y permite la sustitución. Manda reanudar el juego con un tiro libre indirecto a favor del equipo adversario.",
-        "respuesta_d": "d) Expulsa al jugador, y no permite su sustitución, su suplente puede entrar por otro jugador. r. *Manda reanudar el juego conforme a las Reglas de Juego.",
+        "respuesta_d": "d) Expulsa al jugador, y no permite su sustitución, su suplente puede entrar por otro jugador. r. Manda reanudar el juego conforme a las Reglas de Juego.",
         "correcta": "d"
     },
     {
@@ -7966,7 +7966,7 @@
         "respuesta_a": "a) Siempre deben estar como mínimo a 9,15 m. del balón.",
         "respuesta_b": "b) Siempre deben estar como mínimo a 9,15 m. del balón hasta que esté en juego",
         "respuesta_c": "c) Siempre como mínimo a 9,15 m. del balón y además fuera del área penal si se ejecutase por parte del equipo defensor en el interior de esta.",
-        "respuesta_d": "d) Como mínimo a 9,15 m. m. *del balón hasta que esté en juego y fuera del área penal si se ejecutase por parte del equipo defensor en el interior de ésta; deberán estar sobre la línea de meta en el caso de un tiro libre indirecto sancionado a favor del equipo atacante en el interior del área de meta.",
+        "respuesta_d": "d) Como mínimo a 9,15 m. m. del balón hasta que esté en juego y fuera del área penal si se ejecutase por parte del equipo defensor en el interior de ésta; deberán estar sobre la línea de meta en el caso de un tiro libre indirecto sancionado a favor del equipo atacante en el interior del área de meta.",
         "correcta": "d"
     },
     {
@@ -8326,7 +8326,7 @@
         "respuesta_a": "a) Siempre deben estar como mínimo a 9,15 m. del balón.",
         "respuesta_b": "b) Deben estar como mínimo a 4 m. del balón hasta que esté en juego",
         "respuesta_c": "c) Siempre como mínimo a 9,15 m. del balón y además fuera del área penal si se ejecutase por parte del equipo defensor en el interior de esta.",
-        "respuesta_d": "d) Deben estar como mínimo a 9,15 m. m. *del balón hasta que esté en juego y fuera del área penal si se ejecutase por parte del equipo defensor en el interior de ésta, aunque existe alguna excepción.",
+        "respuesta_d": "d) Deben estar como mínimo a 9,15 m. m. del balón hasta que esté en juego y fuera del área penal si se ejecutase por parte del equipo defensor en el interior de ésta, aunque existe alguna excepción.",
         "correcta": "d"
     },
     {
@@ -8473,7 +8473,7 @@
         "regla": "Regla 14",
         "id": 848,
         "pregunta": "El árbitro ordena que se repita el lanzamiento de un tiro penal porque el guardameta se adelantó con los dos pies de su línea de meta. ¿Puede otro jugador lanzar este segundo tiro penal?",
-        "respuesta_a": "a) Sí, pero si se identifica previamente. e. *El guardameta será advertido si es la primera vez que lo hace en el partido y amonestado en caso de reincidencia.",
+        "respuesta_a": "a) Sí, pero si se identifica previamente. e. El guardameta será advertido si es la primera vez que lo hace en el partido y amonestado en caso de reincidencia.",
         "respuesta_b": "b) No.",
         "respuesta_c": "c) Sí, se podrá amonestar al guardameta y el ejecutor no deberá identificarse.",
         "respuesta_d": "d) No, a menos que esté lesionado.",
@@ -8484,7 +8484,7 @@
         "id": 849,
         "pregunta": "¿Qué decisión tomará el árbitro en los siguientes casos en el lanzamiento de un tiro penal? A) el tiro penal se lanza hacia atrás. B) El tiro penal es ejecutado por un jugador distinto al  identificado. C) El ejecutor del tiro penal hace una finta antes de terminar la carrera y patear el balón.",
         "respuesta_a": "a) A) Reanudará el juego con un TLI desde el punto penal. B) Reanudará el juego con un TLI desde el punto penal y amonestará al jugador que ejecutó el tiro penal. C) Reanudará el juego con un TLI desde el punto penal y amonestará al infractor.",
-        "respuesta_b": "b) A) Reanudará el juego con un TLI desde el punto penal. l. *B) Reanudará el juego con un TLI desde el punto penal y amonestará al jugador que ejecutó el tiro penal. l. *C) No tomará ninguna medida",
+        "respuesta_b": "b) A) Reanudará el juego con un TLI desde el punto penal. l. B) Reanudará el juego con un TLI desde el punto penal y amonestará al jugador que ejecutó el tiro penal. l. C) No tomará ninguna medida",
         "respuesta_c": "c) A) Reanudará el juego con un TLI desde el punto penal. B) Reanudará el juego con un TLI desde el punto penal y amonestará al jugador que estaba identificado para lanzarlo C) Reanudará el juego con un TLI desde el punto penal y amonestará al infractor.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "b"
@@ -8623,7 +8623,7 @@
         "regla": "Regla 14",
         "id": 863,
         "pregunta": "Después de que el árbitro da la señal para la ejecución de un tiro penal, un compañero del jugador identificado como ejecutor del tiro se adelanta y lanza el tiro penal. Al mismo tiempo un defensor se coloca a menos de 9,15 m del balón. El árbitro . . .",
-        "respuesta_a": "a) detiene el juego y lo manda reanudar con un tiro libre indirecto en contra del equipo que ejecutó el tiro penal desde el punto de penalti. i. *Amonesta al ejecutor no designado por conducta antideportiva.",
+        "respuesta_a": "a) detiene el juego y lo manda reanudar con un tiro libre indirecto en contra del equipo que ejecutó el tiro penal desde el punto de penalti. i. Amonesta al ejecutor no designado por conducta antideportiva.",
         "respuesta_b": "b) detiene el juego y lo manda reanudar con un tiro libre indirecto en contra del equipo que ejecutó el tiro penal desde el punto de penalti y no amonesta al ejecutor no designado.",
         "respuesta_c": "c) amonesta al ejecutor no designado por conducta antideportiva y ordena repetir el tiro penal.",
         "respuesta_d": "d) al ser una infracción simultánea, ordena repetir el penal y amonesta al ejecutor no designado y al defensor que se adelantó.",
@@ -8775,7 +8775,7 @@
         "pregunta": "En el lanzamiento de un tiro penal, cuando el ejecutor va a patear el balón, el guardameta tiene sus 2 pies adelantados respecto a la línea de meta. El tiro sale por encima del larguero a saque de meta. El árbitro….",
         "respuesta_a": "a) Concederá saque de meta siempre en estos casos donde el portero no detiene el lanzamiento.",
         "respuesta_b": "b) Repetirá el tiro penal y amonestará al guardameta.",
-        "respuesta_c": "c) Únicamente repetirá el tiro penal si la infracción del guardameta al adelantarse influye claramente en el lanzador. r. *Si el árbitro decide repetir el lanzamiento advertirá al guardameta, si es la primera vez que lo hace en el partido. o. *Si fuese reincidente, se le amonestará.",
+        "respuesta_c": "c) Únicamente repetirá el tiro penal si la infracción del guardameta al adelantarse influye claramente en el lanzador. r. Si el árbitro decide repetir el lanzamiento advertirá al guardameta, si es la primera vez que lo hace en el partido. o. Si fuese reincidente, se le amonestará.",
         "respuesta_d": "d) Ninguna respuesta es correcta.",
         "correcta": "c"
     },
@@ -9045,7 +9045,7 @@
         "pregunta": "Un árbitro asistente señala que el balón ha salido por la línea de banda. Antes de que el árbitro haya indicado que el balón no está en juego, un jugador defensor dentro del área penal golpea con uso excesivo de fuerza a un jugador atacante. El árbitro . . .",
         "respuesta_a": "a) expulsa al defensor por conducta violenta. El juego se reanudará con un tiro penal a favor del equipo contrario al infractor.",
         "respuesta_b": "b) amonesta al defensor por conducta antideportiva. El juego se reanuda con un saque de banda.",
-        "respuesta_c": "c) expulsa al defensor por conducta violenta. a. *El juego se reanuda con un saque de banda.",
+        "respuesta_c": "c) expulsa al defensor por conducta violenta. a. El juego se reanuda con un saque de banda.",
         "respuesta_d": "d) Ninguna de las respuestas anteriores es correcta.",
         "correcta": "c"
     },
@@ -9766,7 +9766,7 @@
         "respuesta_a": "a) Sí.",
         "respuesta_b": "b) Sí, el balón tiene que salir en su totalidad del cuadrante de esquina y moverse con claridad.",
         "respuesta_c": "c) Sí, el balón tiene que salir en su totalidad del cuadrante de esquina, ser golpeado con el pie y moverse con claridad.",
-        "respuesta_d": "d) No, nunca. a. *El balón estará en juego cuando sea golpeado con el pie por un atacante y se mueva con claridad.",
+        "respuesta_d": "d) No, nunca. a. El balón estará en juego cuando sea golpeado con el pie por un atacante y se mueva con claridad.",
         "correcta": "d"
     },
     {
@@ -9855,7 +9855,7 @@
         "pregunta": "¿Permitirá el árbitro que un jugador retire momentáneamente el banderín de esquina para efectuar un saque de esquina?",
         "respuesta_a": "a) Sí, a condición de que sea colocado inmediatamente.",
         "respuesta_b": "b) Sí, siempre que estorbe para el lanzamiento.",
-        "respuesta_c": "c) No, ordenará que el banderín de esquina sea restituido antes de que se reinicie el juego. o. *Si considera que la retirada del banderín fue un acto de conducta antideportiva amonestará al jugador que lo quitó.",
+        "respuesta_c": "c) No, ordenará que el banderín de esquina sea restituido antes de que se reinicie el juego. o. Si considera que la retirada del banderín fue un acto de conducta antideportiva amonestará al jugador que lo quitó.",
         "respuesta_d": "d) Sí, siempre que el banderín sea retirado por un jugador del equipo atacante, distinto al jugador que ejecuta el saque",
         "correcta": "c"
     },
@@ -9973,7 +9973,7 @@
         "regla": "Regla 17",
         "id": 998,
         "pregunta": "Durante una acción fortuita, uno de los banderines de esquina se rompe y no hay posibilidad de reemplazarlo. ¿Cuál debe ser la decisión del árbitro?",
-        "respuesta_a": "a) a. *Continuará el partido sin ese banderín y redactará la incidencia en su informe a las autoridades.",
+        "respuesta_a": "a) a. Continuará el partido sin ese banderín y redactará la incidencia en su informe a las autoridades.",
         "respuesta_b": "b) Suspenderá definitivamente el partido.",
         "respuesta_c": "c) Convocará a los dos capitanes y aceptará su decisión sobre proseguir o finalizar el partido.",
         "respuesta_d": "d) Ordenará retirar los otros tres banderines para que no haya ventaja.",

@@ -29,8 +29,6 @@ onMounted(() => {
         form.preguntas.push(question);
         form.respuesta_usuario = question.respuesta_usuario;
         form.respuesta_correcta = question.correcta;
-        console.log(form.respuesta_correcta);
-        console.log(form.respuesta_usuario);
     });
 })
 
@@ -48,26 +46,33 @@ onMounted(() => {
         <form @submit.prevent="submit">
             <div v-for="question in questions" :key="question.id" class="mb-4">
                 <div class="bg-gray-800 text-white p-4 rounded-md">{{ question.index }}. {{ question.pregunta }}</div>
-                <div class="p-4">
-                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="a"
-                        :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_a }}
-                </div>
-                <div class="p-4">
-                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="b"
-                        :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_b }}
-                </div>
-                <div class="p-4">
-                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="c"
-                        :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_c }}
-                </div>
-                <div class="p-4">
-                    <input class="mr-4" type="radio" v-model="question.respuesta_usuario" value="d"
-                        :name="'respuesta_' + question.id + '_' + question.index" /> {{ question.respuesta_d }}
-                </div>
+                               
+   
+        <div class="flex items-center ps-4 border-b border-gray-800">
+            <input :id="'bordered-radio-a'+question.id" type="radio" value="a" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
+            <label :for="'bordered-radio-a'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_a }}</label>
+        </div>
+
+        <div class="flex items-center ps-4 border-b border-gray-800">
+            <input :id="'bordered-radio-b'+question.id" type="radio" value="b" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
+            <label :for="'bordered-radio-b'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_b }}</label>
+        </div>
+
+        <div class="flex items-center ps-4 border-b border-gray-800">
+            <input :id="'bordered-radio-c'+question.id" type="radio" value="c" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
+            <label :for="'bordered-radio-c'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_c }}</label>
+        </div>
+
+        <div class="flex items-center ps-4 border-b border-gray-800">
+            <input :id="'bordered-radio-d'+question.id" type="radio" value="d" v-model="question.respuesta_usuario" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
+            <label :for="'bordered-radio-d'+question.id" class="w-full py-4 ms-2 font-medium text-gray-900 ml-4">{{ question.respuesta_d }}</label>
+        </div>
+
 
 
             </div>
-            <div class="flex flex-row justify-end">
+            
+        <div class="flex flex-row justify-end">
             <button class="bg-gray-800 text-white p-4 rounded-md" type="submit">Enviar</button>
         </div>
 </form>

@@ -39,6 +39,7 @@ Route::get('/google-callback', function () {
     return redirect('/dashboard');
 });
 
+/* 
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -46,7 +47,12 @@ Route::get('/', function () {
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
     ]);
+}); */
+
+Route::get('/', function () {
+    return Inertia::render('Auth/Login');
 });
+
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
