@@ -30,7 +30,7 @@ onMounted(() => {
     <div class="border-b flex justify-between pb-2 mb-4">
             <p>{{ exam.name }}</p>
             <p>{{ exam.correct_questions }} / {{ exam.total_questions }}</p>
-            <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-300 px-2 rounded-md">Aprobado</span>
+            <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 px-2 rounded-md">Aprobado</span>
             <span class="bg-red-200 px-2 rounded-md" v-else>Suspendido</span>
     </div>
         
