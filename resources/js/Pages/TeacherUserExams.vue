@@ -62,7 +62,7 @@ watch(search_result, (value) => {
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                 </svg>
             </div>
-            <input v-model="search" type="text" id="table-search-users" class="block p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 " placeholder="Search for users">
+            <input v-model="search" type="text" id="table-search-users" class="block p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 " placeholder="Buscador para examenes">
         </div>
             <input type="date" v-model="search_date" placeholder="Buscar examen..."
                 class="ml-4 w-1/4 p-2 mb-4 border border-gray-200 rounded-lg" />
@@ -79,6 +79,9 @@ watch(search_result, (value) => {
                     Name
                 </th>
                 <th scope="col" class="px-6 py-3">
+                    Fecha
+                </th>
+                <th scope="col" class="px-6 py-3">
                     Errores
                 </th>
                 <th scope="col" class="px-6 py-3">
@@ -93,7 +96,7 @@ watch(search_result, (value) => {
         <tbody>
             <tr v-if="exams.length === 0" class="bg-white border-b hover:bg-gray-50 ">
                 <td class="px-6 py-4" colspan="4">
-                    No se encontraron usuarios
+                    No se encontraron examenes
                 </td>
             </tr>
             <tr v-for="exam in exams" :key="exam.id" class="bg-white border-b hover:bg-gray-50 ">
@@ -101,10 +104,13 @@ watch(search_result, (value) => {
                     {{ exam.name }}
                 </th>
                 <td class="px-6 py-4">
+                    {{ formatDateTime(exam.created_at) }}
+                </td>
+                <td class="px-6 py-4">
                     {{ exam.total_questions - exam.correct_questions }} errores
                 </td>
                 <td class="px-6 py-4">
-                    <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 text-black px-2 rounded-md p-4">Aprobado</span>
+                    <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 text-black px-2 rounded-md px-3 py-1">Aprobado</span>
                         <span class="bg-red-200 text-black px-2 rounded-md px-3 py-1" v-else>Suspendido</span>
                 </td>
                 <td class="px-6 py-4">
@@ -115,8 +121,7 @@ watch(search_result, (value) => {
     </table>
 </div>
 
-
-        </LateralMenu>
+</LateralMenu>
 
     
 </template>
