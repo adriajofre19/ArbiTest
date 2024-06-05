@@ -27,7 +27,7 @@ onMounted(() => {
     <div class='flex items-center justify-center min-h-screen from-blue-100 via-blue-300 to-blue-500 bg-gradient-to-br '>
     <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
 
-    <div class="border-b flex justify-between pb-2 mb-4">
+    <div class="border-b block md:flex justify-between pb-2 mb-4 mx-4">
             <p>{{ exam.name }}</p>
             <p>{{ exam.correct_questions }} / {{ exam.total_questions }}</p>
             <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-300 px-2 rounded-md">Aprobado</span>

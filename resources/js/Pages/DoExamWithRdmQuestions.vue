@@ -56,7 +56,7 @@ function ComprovarPreguntasContestadas() {
         <div class='flex items-center justify-center  '>
             <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
 
-                <div class="border-b flex justify-between pb-2 mb-4 px-4">
+                <div class="border-b flex justify-between pb-2 mb-4 px-4 mx-4">
                     <p>Examen de 25 preguntas</p>
                 </div>
 
