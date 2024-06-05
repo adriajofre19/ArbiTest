@@ -7,6 +7,10 @@ const props = defineProps ({
     exams: Array
 });
 
+function formatDateTime(date) {
+    return new Date(date).toLocaleString();
+}
+
 </script>
 
 <template>
@@ -18,6 +22,7 @@ const props = defineProps ({
                 <div class="bg-white overflow-hidden block md:flex justify-between shadow-sm rounded-lg px-4 ">
                     <div class="p-6 text-gray-900">{{ exam.name }}</div>
                     <div class="p-6 text-gray-900">{{ exam.correct_questions }} / {{ exam.total_questions }}</div>
+                    <div class="p-6 text-gray-900">{{ formatDateTime(exam.created_at) }}</div>
                     <div class="p-6 text-gray-900">
                         <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 text-black px-2 rounded-md">Aprobado</span>
                         <span class="bg-red-200 text-black px-2 rounded-md" v-else>Suspendido</span>
