@@ -52,13 +52,12 @@ watch(search_date, (value) => {
             <div v-if="exams.length === 0" class="text-center">No se encontraron exámenes</div>
 
             <div v-for="exam in exams" :key="exam.id"
-                class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex items-center justify-between">
+                class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex items-center justify-between mt-4">
                 <a :href="'/exam-solutions/' + exam.id" class="p-4">{{ exam.name }}</a>
                 <h1 class="p-4">{{ formatDateTime(exam.created_at) }}</h1>
                 <h1 class="p-4">{{ exam.correct_questions }} / {{ exam.total_questions }}</h1>
-                <span v-if="exam.correct_questions === exam.total_questions"
-                    class=" bg-green-500 text-white rounded-md px-2 mr-4">Aprobado</span>
-                <span v-else class=" bg-red-500 text-white rounded-md px-2 mr-4">Suspendido</span>
+                <span v-if = "exam.correct_questions / exam.total_questions >= 0.75" class="bg-green-200 text-black px-2 rounded-md">Aprobado</span>
+                        <span class="bg-red-200 text-black px-2 rounded-md" v-else>Suspendido</span>
 
 
             </div>

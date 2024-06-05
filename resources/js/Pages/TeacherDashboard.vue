@@ -41,7 +41,7 @@ watch(search, (value) => {
             <div v-if="users.length === 0" class="text-center">No se encontraron usuarios</div>
 
             <a :href="'/teacher-user-exams/' + user.id" v-for="user in users" :key="user.id"
-                class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex items-center">
+                class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex items-center mb-4">
                 <div class="p-4">
                     <img :src="user.avatar" :alt="user.name" class="w-20 h-20  rounded-full" />
                 </div>
