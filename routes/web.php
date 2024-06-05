@@ -5,6 +5,8 @@ use App\Http\Controllers\DoExamWithRdmQuestionsController;
 use App\Http\Controllers\StoreExamController;
 use App\Http\Controllers\GetDoItExamsController;
 use App\Http\Controllers\GetSolutionsOfExamController;
+use App\Http\Controllers\TeacherController;
+
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -39,6 +41,14 @@ Route::get('/google-callback', function () {
     return redirect('/do-exam-rdm');
 });
 
+use App\Http\Middleware\CheckTeacherRole;
+
+// Aplica el middleware a un grupo de rutas
+Route::middleware([CheckTeacherRole::class])->group(function () {
+    Route::get('/teacher-dashboard', [TeacherController::class, 'index'])->name('teacher-dashboard');
+    Route::get('/teacher-user-exams/{id}', [TeacherController::class, 'getExamsFromUser'])->name('teacher-user-exams');
+});
+
 /* 
 Route::get('/', function () {
     return Inertia::render('Welcome', [
@@ -69,4 +79,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/exam-solutions/{exam_id}', [GetSolutionsOfExamController::class, 'getExamSolutions'])->name('exam-solutions');
 });
 
+/*
+Route::get('/teacher-dashboard', function () {
+    return Inertia::render('TeacherDashboard');
+})->middleware(['auth', 'verified', CheckTeacherRole::class])->name('teacher-dashboard');
+*/
 require __DIR__.'/auth.php';

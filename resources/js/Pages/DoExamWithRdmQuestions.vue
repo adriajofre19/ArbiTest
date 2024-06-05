@@ -19,7 +19,14 @@ const form = useForm({
 })
 
 const submit = () => {
-    form.post('/store-exam', form)
+    const preguntasContestadas = ComprovarPreguntasContestadas();
+    if (preguntasContestadas < 25) {
+        alert('Debes contestar todas las preguntas');
+        return;
+    } else {
+        form.post('/store-exam', form)
+    }
+
 };
 
 onMounted(() => {
@@ -32,71 +39,88 @@ onMounted(() => {
     });
 })
 
+function ComprovarPreguntasContestadas() {
+    let preguntasContestadas = 0;
+    form.preguntas.forEach((pregunta) => {
+        if (pregunta.respuesta_usuario) {
+            preguntasContestadas++;
+        }
+    });
+    return preguntasContestadas;
+}
+
 </script>
 
 <template>
     <AuthenticatedLayout>
-<div class='flex items-center justify-center  '>
-    <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
+        <div class='flex items-center justify-center  '>
+            <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
 
-        <div class="border-b flex justify-between pb-2 mb-4 px-4">
-            <p>Examen de 25 preguntas</p>
+                <div class="border-b flex justify-between pb-2 mb-4 px-4">
+                    <p>Examen de 25 preguntas</p>
+                </div>
+
+                <form @submit.prevent="submit">
+                    <div v-for="question in questions" :key="question.id" class="mb-4 px-4 md:px-0">
+                        <div class="bg-gray-800 text-white p-5 rounded-md">
+                            <h1>{{ question.index }}. {{ question.pregunta }}</h1>
+                        </div>
+
+                        <ul class="grid w-full mt-2">
+                            <li class="mb-2">
+                                <input type="radio" :id="'option_a' + question.id" v-model="question.respuesta_usuario"
+                                    value="a" class="hidden peer" required />
+                                <label :for="'option_a' + question.id"
+                                    class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
+                                    <div class="block">
+                                        <div class="w-full">{{ question.respuesta_a }}</div>
+                                    </div>
+                                </label>
+                            </li>
+                            <li class="mb-2">
+                                <input type="radio" :id="'option_b' + question.id" v-model="question.respuesta_usuario"
+                                    value="b" class="hidden peer" required>
+                                <label :for="'option_b' + question.id"
+                                    class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
+                                    <div class="block">
+                                        <div class="w-full">{{ question.respuesta_b }}</div>
+                                    </div>
+                                </label>
+                            </li>
+                            <li class="mb-2">
+                                <input type="radio" :id="'option_c' + question.id" v-model="question.respuesta_usuario"
+                                    value="c" class="hidden peer" required />
+                                <label :for="'option_c' + question.id"
+                                    class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
+                                    <div class="block">
+                                        <div class="w-full">{{ question.respuesta_c }}</div>
+                                    </div>
+                                </label>
+                            </li>
+                            <li class="mb-2">
+                                <input type="radio" :id="'option_d' + question.id" v-model="question.respuesta_usuario"
+                                    value="d" class="hidden peer" required>
+                                <label :for="'option_d' + question.id"
+                                    class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
+                                    <div class="block">
+                                        <div class="w-full">{{ question.respuesta_d }}</div>
+                                    </div>
+                                </label>
+                            </li>
+                        </ul>
+
+
+
+
+
+
+                    </div>
+
+                    <div class="flex flex-row justify-end px-4">
+                        <button class="bg-gray-800 text-white px-6 py-4 rounded-md" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-
-        <form @submit.prevent="submit">
-            <div v-for="question in questions" :key="question.id" class="mb-4 px-4 md:px-0">
-                <div class="bg-gray-800 text-white p-5 rounded-md"><h1>{{ question.index }}. {{ question.pregunta }}</h1></div>
-
-<ul class="grid w-full mt-2">
-    <li class="mb-2">
-        <input type="radio" :id="'option_a'+question.id" v-model="question.respuesta_usuario" value="a" class="hidden peer" />
-        <label :for="'option_a'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">                           
-            <div class="block">
-                <div class="w-full">{{ question.respuesta_a }}</div>
-            </div>
-        </label>
-    </li>
-    <li class="mb-2">
-        <input type="radio" :id="'option_b'+question.id" v-model="question.respuesta_usuario" value="b" class="hidden peer">
-        <label :for="'option_b'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
-            <div class="block">
-                <div class="w-full">{{ question.respuesta_b }}</div>
-            </div>
-        </label>
-    </li>
-    <li class="mb-2">
-        <input type="radio" :id="'option_c'+question.id" v-model="question.respuesta_usuario" value="c" class="hidden peer" />
-        <label :for="'option_c'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">                           
-            <div class="block">
-                <div class="w-full">{{ question.respuesta_c }}</div>
-            </div>
-        </label>
-    </li>
-    <li class="mb-2">
-        <input type="radio" :id="'option_d'+question.id" v-model="question.respuesta_usuario" value="d" class="hidden peer">
-        <label :for="'option_d'+question.id" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100">
-            <div class="block">
-                <div class="w-full">{{ question.respuesta_d }}</div>
-            </div>
-        </label>
-    </li>
-</ul>
-                               
-   
-        
-
-
-
-            </div>
-            
-        <div class="flex flex-row justify-end px-4">
-            <button class="bg-gray-800 text-white px-6 py-4 rounded-md" type="submit">Enviar</button>
-        </div>
-</form>
-</div>
-</div>
     </AuthenticatedLayout>
 </template>
-
-
-
