@@ -15,6 +15,9 @@ function formatDateTime(date) {
 
 <template>
     <AuthenticatedLayout>
+        <template #header>
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight">Mis examenes</h2>
+        </template>
 
     <div class="py-12">
             <div class="max-w-7xl mx-auto px-6 lg:px-8 mb-4" v-for="exam in exams" :key="exam.id">

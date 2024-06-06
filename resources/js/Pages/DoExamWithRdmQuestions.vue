@@ -53,6 +53,10 @@ function ComprovarPreguntasContestadas() {
 
 <template>
     <AuthenticatedLayout>
+        <template #header>
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight">Examen de 25 preguntas</h2>
+        </template>
+
         <div class='flex items-center justify-center  '>
             <div class='w-full max-w-7xl md:px-10 py-8 mx-auto bg-white md:rounded-lg shadow-xl md:mt-8'>
 
