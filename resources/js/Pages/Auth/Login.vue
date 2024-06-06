@@ -40,7 +40,7 @@ const submit = () => {
     
 <div class="bg-white lg:bg-gray-100">
         <div class="flex justify-center h-screen">
-            <div class="hidden bg-cover lg:block lg:w-3/5" style="background-image: url(https://images.unsplash.com/photo-1616763355603-9755a640a287?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)">
+            <div class="hidden bg-cover lg:block lg:w-2/4" style="background-image: url(https://images.unsplash.com/photo-1616763355603-9755a640a287?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)">
                 <div class="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
                     <div>
                         <img src="/img/logo_page.png" alt="logo" class="w-20 h-20 mb-4"/>
@@ -52,7 +52,7 @@ const submit = () => {
             </div>
             
             <div class="flex items-center w-full max-w-lg px-6 mx-auto lg:w-2/6">
-                <div class="flex-1 lg:px-8 lg:py-6 lg:border lg:border-gray-300 lg:shadow-xl lg:bg-white">
+                <div class="flex-1 ">
                     <div class="text-center">
                         <img src="/img/logo_page.png" alt="logo" class="w-16 h-16 mx-auto mb-4"/>
                         <h2 class="text-4xl font-bold text-center text-gray-700">ArbiTest</h2>   
