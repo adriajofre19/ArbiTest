@@ -51,7 +51,7 @@ const submit = () => {
                 </div>
             </div>
             
-            <div class="flex items-center w-full max-w-lg px-6 mx-auto lg:w-2/6">
+            <div class="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6">
                 <div class="flex-1 ">
                     <div class="text-center">
                         <img src="/img/logo_page.png" alt="logo" class="w-16 h-16 mx-auto mb-4"/>
